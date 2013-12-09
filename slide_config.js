@@ -3,6 +3,10 @@ var SLIDE_CONFIG = {
   settings: {
     title: 'Title Goes Here<br>Up To Two Lines',
     subtitle: 'Subtitle Goes Here',
+    //eventInfo: {
+    //  title: 'Google I/O',
+    //  date: '6/x/2013'
+    //},
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
     enableSlideAreas: true, // Default: true. False turns off the click areas on either slide of the slides.
@@ -11,16 +15,16 @@ var SLIDE_CONFIG = {
     favIcon: 'images/btrll_circle_red_24x24.png',
     fonts: [
       'Open Sans:regular,semibold,italic,italicsemibold',
-      'Inconsolata'
+      'Source Code Pro'
     ],
     //theme: ['mytheme'], // Add your own custom themes or styles in /theme/css. Leave off the .css extension.
   },
 
   // Author information
   presenters: [{
-    name: 'First Name',
-    company: 'Job Title, BrightRoll',
-    gplus: 'http://plus.google.com/101906387164396459023',
+    name: 'Firstname Lastname',
+    company: 'Job Title<br>BrightRoll',
+    gplus: 'https://plus.google.com/+JasonBrooksThrasher',
     twitter: '@thrasher',
     www: 'http://kyr.brightroll.com/users/138',
     github: 'http://github.com/thrasher'
